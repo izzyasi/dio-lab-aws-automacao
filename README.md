@@ -13,7 +13,7 @@ O sistema segue o seguinte fluxo de eventos:
 3.  **Processamento:** A função Lambda (escrita em Python) é executada, lê o conteúdo do arquivo, processa os dados (ex: extrai informações, valida campos) e grava os resultados em uma tabela no DynamoDB.
 4.  **Consulta (Opcional):** Uma segunda função Lambda, exposta por um **API Gateway**, permite que usuários externos consultem os dados que foram processados e salvos no DynamoDB.
 
-![Diagrama do Fluxo]()
+![Diagrama do Fluxo](https://github.com/user-attachments/assets/33bf3353-a22a-4787-befa-c320d0121814)
 
 ## 🛠️ Tecnologias Utilizadas
 
